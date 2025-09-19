@@ -17,3 +17,9 @@ function checkCountValue(){
         alert("¡Tu publicación ganó 20 seguidores! ¡Sigue así!");
     }
 }
+
+function resetCount(){
+    count = 0;
+    displayCount();
+    alert("¡Se ha reseteado el contador!")
+}
